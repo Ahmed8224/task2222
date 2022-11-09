@@ -12,13 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: before
-        run: ls
-
       - uses: action/checkout@v3
-        
-
-      - name: after
-        run: ls
-
       
+      - name: docker login --username ahmed01200 --password dckr_pat_7cE_wE0bIBVMqAz-3jxhILXeKe4
+      
+        
