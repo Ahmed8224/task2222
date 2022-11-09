@@ -12,13 +12,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'before'
+      - name: before
         run: ls
 
       - uses: action/checkout@v3
         
 
-      - name: 'after'
+      - name: after
         run: ls
 
       
