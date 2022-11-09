@@ -15,10 +15,10 @@ jobs:
       - name: 'before'
         run: ls
 
-        - uses: action/checkout@v3
+      - uses: action/checkout@v3
         
 
-        - name: 'after'
-          run: ls
+      - name: 'after'
+        run: ls
 
       
